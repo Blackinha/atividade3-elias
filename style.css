@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(233, 17, 168);
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  a {
+    color: #b70ae2;
+  }
+  
+  p,
+  label {
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  legend {
+    color: #333;
+  }
+
+  button {
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    color: #ff0000;
+  }
+  
+  fieldset p {
+    font-size: 16px;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    background-color: #fff;
+  }
+  
+  label {
+    color: #7e00f5;
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto
+    ;
+  }
+  

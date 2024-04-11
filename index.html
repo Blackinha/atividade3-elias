@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário Filmes</h1>
+    <a href="main.html">Página inicial</a>
+
+    <form action="#">
+      <fieldset>
+        <legend><strong>Dados Pessoais</strong></legend>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Opções</strong></legend>
+
+        <p>Qual sua categoria de filme favorito?</p>
+        <input
+          type="radio"
+          id="terror"
+          name="categoria"
+          value="terror"
+        />
+        <label for="terror">Terror</label>
+
+        <input
+          type="radio"
+          id="romance"
+          name="categoria"
+          value="romance"
+        />
+        <label for="romance">Romance</label>
+
+        <input type="radio" id="psicologico" name="categoria" value="psicologico" />
+        <label for="psicologico">Psicologico</label>
+
+        <p>Quais desses filmes você conhece?</p>
+        <input type="checkbox" id="filme" name="filme" value="filme" />
+        <label for="filme">Homem Aranha</label>
+
+        <input type="checkbox" id="filme" name="filme" value="filme" />
+        <label for="filme">A Casa De Cera</label>
+
+        <input
+          type="checkbox"
+          id="filme"
+          name="filme"
+          value="filme"
+        />
+        <label for="filme">Barbie</label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Comentario</strong></legend>
+        <label for="mensagem">Comentario:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+      </fieldset>
+
+      <button type="reset">Limpar</button>
+      <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
